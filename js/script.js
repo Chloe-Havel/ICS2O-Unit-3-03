@@ -24,7 +24,7 @@ function myButtonClicked() {
 /**
  * This function calculates volumeof a sphere.
  */
- function calculate() {
+function calculate() {
   // input
   const length = parseInt(document.getElementById("radius").value)
   // process
