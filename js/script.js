@@ -10,8 +10,8 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-PWA-Test-1/sw.js", {
-    scope: "/ICS2O-PWA-Test-1/",
+  navigator.serviceWorker.register("/ICS2O-Unit-3-03/sw.js", {
+    scope: "/ICS2O-Unit-3-03/",
   })
 }
 
@@ -20,4 +20,16 @@ if (navigator.serviceWorker) {
  */
 function myButtonClicked() {
   document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+}
+/**
+ * This function calculates volumeof a sphere.
+ */
+ function calculate() {
+  // input
+  const length = parseInt(document.getElementById("radius").value)
+  // process
+  const sphere = (length * width * height) / 3
+
+  // output
+  document.getElementById("Volume").innerHTML = "Volume: " + sphere + " mm² "
 }
