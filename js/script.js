@@ -31,5 +31,6 @@ function calculate() {
   const sphere = (3 / 4) * 3.14 * radius * 3
 
   // output
-  document.getElementById("Volume").innerHTML = "Volume: " + sphere.toString() + " mm² "
+  document.getElementById("Volume").innerHTML =
+    "Volume: " + sphere.toString() + " mm² "
 }
