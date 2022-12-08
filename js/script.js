@@ -26,7 +26,7 @@ function myButtonClicked() {
  */
 function calculate() {
   // input
-  const length = parseInt(document.getElementById("radius").value)
+  const radius = parseInt(document.getElementById("radius").value)
   // process
   const sphere = (3 / 4) * 3.14 * radius * 3
 
