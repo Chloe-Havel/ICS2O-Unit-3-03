@@ -28,7 +28,7 @@ function calculate() {
   // input
   const length = parseInt(document.getElementById("radius").value)
   // process
-  const sphere = (length * width * height) / 3
+  const sphere = 3 / 4 * 3.14 * radius * 3
 
   // output
   document.getElementById("Volume").innerHTML = "Volume: " + sphere + " mm² "
